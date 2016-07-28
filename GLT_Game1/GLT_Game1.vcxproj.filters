@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Stats">
+      <UniqueIdentifier>{082476f7-d7a3-4e9c-bdd8-5306f4c82f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{f0e96d6d-8487-47c4-87b1-d06f2655c20d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity">
+      <UniqueIdentifier>{989156c0-6ac1-4071-a169-f2be2fedc033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision">
+      <UniqueIdentifier>{1f721489-1644-4b07-9ec3-a6d17353ea58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{da6b3cc4-2b4f-4993-b007-dc8d52f01457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Gun">
+      <UniqueIdentifier>{292390ee-7d3f-4854-ac37-d703f119e7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Gun">
+      <UniqueIdentifier>{84a5373a-94aa-4499-b017-cfa54f5a2ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects">
+      <UniqueIdentifier>{9ab96f41-7ea3-4495-8075-7095971e8702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects">
+      <UniqueIdentifier>{daa6c58b-5879-40c5-8051-91ce51106c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects\Destruction">
+      <UniqueIdentifier>{e2139f3a-5934-4437-a89c-72356c9779c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects\Destruction">
+      <UniqueIdentifier>{58591e3b-ac8f-4713-af76-e1e6b0033f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Enemy">
+      <UniqueIdentifier>{052426b2-6ab1-46d4-91b4-32608994bb41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Enemy">
+      <UniqueIdentifier>{7caa6b9f-663d-4090-af6f-f800a3f2b863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects\Player">
+      <UniqueIdentifier>{82b27550-9897-4b31-a849-ba5c16441bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects\Player">
+      <UniqueIdentifier>{4183aa28-4fca-4f52-892b-9ebb2fc69622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects\Enemy">
+      <UniqueIdentifier>{964975dc-cf88-429d-b62a-621ab9bfa28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects\Enemy">
+      <UniqueIdentifier>{653e881e-937e-480b-846c-87a918e13564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map">
+      <UniqueIdentifier>{9720c65a-7719-4323-9635-26296bcd446b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map">
+      <UniqueIdentifier>{71603c4f-bfeb-4bb1-808d-f7f3828485aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Entity\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Source Files\Entity\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPickup.cpp">
+      <Filter>Source Files\Entity\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FXCtrl.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="FX.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="FX_Ring.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="FX_Trail.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="FX_Debree.cpp">
+      <Filter>Source Files\Effects\Destruction</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="FX_Hit.cpp">
+      <Filter>Source Files\Effects\Destruction</Filter>
+    </ClCompile>
+    <ClCompile Include="Charger.cpp">
+      <Filter>Source Files\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Floater.cpp">
+      <Filter>Source Files\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Floater_Spawner.cpp">
+      <Filter>Source Files\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetBank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FX_Chain.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="FX_Muzzle.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="FX_Jump_Ground.cpp">
+      <Filter>Source Files\Effects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FX_Jump_Air.cpp">
+      <Filter>Source Files\Effects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="KillCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreboardLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Waves.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorConfig.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapVisuals.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FX_Kill.cpp">
+      <Filter>Source Files\Effects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>Header Files\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.hpp">
+      <Filter>Header Files\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.hpp">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.hpp">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.hpp">
+      <Filter>Header Files\Entity\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.hpp">
+      <Filter>Header Files\Entity\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPickup.hpp">
+      <Filter>Header Files\Entity\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FX.hpp">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="FXCtrl.hpp">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="FX_Ring.hpp">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="FX_Trail.hpp">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="FX_Debree.hpp">
+      <Filter>Header Files\Effects\Destruction</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.hpp">
+      <Filter>Header Files\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="FX_Hit.hpp">
+      <Filter>Header Files\Effects\Destruction</Filter>
+    </ClInclude>
+    <ClInclude Include="Charger.hpp">
+      <Filter>Header Files\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Floater.hpp">
+      <Filter>Header Files\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Floater_Spawner.hpp">
+      <Filter>Header Files\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetBank.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FX_Chain.hpp">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="FX_Muzzle.hpp">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="FX_Jump_Ground.hpp">
+      <Filter>Header Files\Effects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="KillCounter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoard.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreboardLoader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Waves.hpp">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorConfig.hpp">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapVisuals.hpp">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FX_Kill.hpp">
+      <Filter>Header Files\Effects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundConfig.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFX.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FX_Jump_Air.hpp">
+      <Filter>Header Files\Effects\Player</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="waveInfo.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
